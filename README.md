@@ -1,13 +1,13 @@
 # kusto2csv
 
-Download large Kusto queries one day at a time
+Download large Kusto/Azure Data Explorer queries one day at a time
 
 # Environment Variables (put in .env file)
-* KUSTO_CLUSTER
-* KUSTO_APP_CLIENT_ID
-* KUSTO_APP_CLIENT_SECRET
-* KUSTO_APP_AUTHORITY_ID
-* KUSTO_DB
+* KUSTO_CLUSTER - Full URL of Kusto cluster
+* KUSTO_APP_CLIENT_ID - Kusto client ID
+* KUSTO_APP_CLIENT_SECRET - Kusto client secret
+* KUSTO_APP_AUTHORITY_ID - Kusto authority ID
+* KUSTO_DB - Kusto database name
 
 # Setup (Tested against python 3.7.11)
 ```

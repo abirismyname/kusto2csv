@@ -13,7 +13,7 @@ from azure.kusto.data import (
     KustoClient, 
     KustoConnectionStringBuilder)
 from azure.kusto.data.helpers import dataframe_from_result_table
-CLUSTER = f'https://{os.getenv("KUSTO_CLUSTER")}.kusto.windows.net'
+CLUSTER = os.getenv('KUSTO_CLUSTER',"NA")
 CLIENT_ID = os.getenv('KUSTO_APP_CLIENT_ID',"NA")
 CLIENT_SECRET = os.getenv('KUSTO_APP_CLIENT_SECRET',"NA")
 AUTHORITY_ID = os.getenv('KUSTO_APP_AUTHORITY_ID',"NA")
